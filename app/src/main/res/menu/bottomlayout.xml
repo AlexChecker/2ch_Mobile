@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/threads_icon" android:iconTint="#FF7800" android:id="@+id/ThreadsList" android:title="Треды"/>
+    <item android:icon="@drawable/threads_icon" android:iconTint="#FF7800" android:id="@+id/PostList" android:title="Посты"/>
+    <item android:icon="@drawable/threads_icon" android:iconTint="#FF7800" android:id="@+id/PostContent" android:title="Пост"/>
+</menu>
