@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static Fragment BoardsList;
     public static Fragment threadView = null;
-    public static Fragment postView;
+    public static Fragment postView = null;
 
 
     @Override
@@ -43,7 +43,8 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case R.id.PostContent:
-                        setFragment(new PostReader());
+                        if(postView != null)
+                        setFragment(postView);
                         break;
                 }
 

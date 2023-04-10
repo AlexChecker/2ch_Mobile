@@ -13,4 +13,7 @@ public interface APIInterface {
 
     @GET("{board}/threads.json")
     Call<ThreadsList> getThreads(@Path("board") String boardID);
+
+    @GET("after/{board}/{thread}/{thread}")
+    Call<PostScheme> getPosts(@Path("board") String boardID, @Path("thread") int threadNum);
 }
